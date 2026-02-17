@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leadership & Governance | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Leadership & Governance</h1>
+  <p>Accountability, risk-aware execution, and disciplined governance across all client engagements.</p>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Executive Oversight</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Strategy & Direction</h3>
+        <p>Leadership defines enterprise priorities and aligns capabilities with client needs.</p>
+      </div>
+      <div class="card">
+        <h3>Delivery Governance</h3>
+        <p>Structured oversight ensures quality, timelines, and escalation paths.</p>
+      </div>
+      <div class="card">
+        <h3>Risk & Compliance</h3>
+        <p>Visibility into technical, operational, and regulatory risks with proactive mitigation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

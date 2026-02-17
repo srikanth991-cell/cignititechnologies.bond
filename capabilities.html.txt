@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Capabilities | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Our Capabilities</h1>
+  <p>Delivering enterprise-grade digital assurance and engineering solutions with AI & IP-led innovation.</p>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Core Services</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Digital Assurance</h3>
+        <p>AI-assisted testing, risk-based validation, and regulatory-aligned QA for complex environments.</p>
+      </div>
+      <div class="card">
+        <h3>Quality Engineering</h3>
+        <p>Automation, CI/CD pipelines, and engineering practices that enhance delivery predictability.</p>
+      </div>
+      <div class="card">
+        <h3>Custom Engineering</h3>
+        <p>Tailored software solutions designed for high-security, regulated, and complex workflows.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

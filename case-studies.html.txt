@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Case Studies | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Case Studies</h1>
+  <p>Selected examples demonstrating delivery of AI-led digital assurance and engineering solutions for regulated enterprises.</p>
+</header>
+
+<section>
+  <div class="container">
+
+    <div class="case">
+      <h2>Financial Services Platform Assurance</h2>
+      <div class="block"><h4>Challenge</h4><p>Frequent releases with strict regulatory compliance created high risk.</p></div>
+      <div class="block"><h4>Approach</h4><p>AI-assisted automation, risk-based assurance, and governance-aligned reporting.</p></div>
+      <div class="block"><h4>Outcome</h4><p>Reduced defects, enhanced audit readiness, maintained velocity.</p></div>
+    </div>
+
+    <div class="case">
+      <h2>Healthcare Data Platform Engineering</h2>
+      <div class="block"><h4>Challenge</h4><p>High sensitivity data, complex integrations, regulatory constraints.</p></div>
+      <div class="block"><h4>Approach</h4><p>Quality engineering pipelines, data validation, security-focused testing.</p></div>
+      <div class="block"><h4>Outcome</h4><p>Platform launch with validated data integrity, stable integrations.</p></div>
+    </div>
+
+    <div class="case">
+      <h2>Enterprise SaaS AI-Assisted Assurance</h2>
+      <div class="block"><h4>Challenge</h4><p>Rapid feature expansion increased regression risk while meeting SLAs.</p></div>
+      <div class="block"><h4>Approach</h4><p>AI-assisted test prioritization, automation, continuous quality analytics.</p></div>
+      <div class="block"><h4>Outcome</h4><p>Improved release predictability, reduced regression cycles, scalable platform.</p></div>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

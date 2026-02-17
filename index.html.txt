@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Welcome to Cigniti Technology Inc</h1>
+  <p>AI & IP-led digital assurance and engineering solutions for complex, regulated enterprises.</p>
+</header>
+
+<section>
+  <div class="container">
+    <h2>Capabilities Overview</h2>
+    <p>Cigniti Technology Inc provides AI & IP-led digital assurance, quality engineering, and custom engineering solutions for regulated enterprises globally. We focus on complex workflows, high security, and enterprise-grade governance.</p>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

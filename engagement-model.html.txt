@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engagement Model | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Engagement Model</h1>
+  <p>Flexible collaboration tailored to project needs, risk requirements, and enterprise governance standards.</p>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <h3>Project-Based</h3>
+        <p>Fixed scope, clear timelines, and delivery-focused execution.</p>
+      </div>
+      <div class="card">
+        <h3>Managed Services</h3>
+        <p>Continuous support, governance, and oversight for critical systems.</p>
+      </div>
+      <div class="card">
+        <h3>Strategic Partnership</h3>
+        <p>Long-term engagement for innovation, process improvement, and risk management.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

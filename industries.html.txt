@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Industries | Cigniti Technology Inc</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="capabilities.html">Capabilities</a>
+  <a href="industries.html">Industries</a>
+  <a href="engagement-model.html">Engagement Model</a>
+  <a href="leadership-governance.html">Leadership</a>
+  <a href="case-studies.html">Case Studies</a>
+</nav>
+
+<header>
+  <h1>Industries We Serve</h1>
+  <p>Expertise across Financial Services, Healthcare, Technology, and other complex enterprise sectors.</p>
+</header>
+
+<section>
+  <div class="container">
+    <div class="grid">
+      <div class="card">
+        <h3>Financial Services</h3>
+        <p>Risk-compliant digital assurance for banking, trading, and payments systems.</p>
+      </div>
+      <div class="card">
+        <h3>Healthcare</h3>
+        <p>Quality engineering for clinical platforms, data security, and compliance-sensitive applications.</p>
+      </div>
+      <div class="card">
+        <h3>Technology & SaaS</h3>
+        <p>Scalable assurance and engineering for global software products and platforms.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Cigniti Technology Inc. All rights reserved.
+</footer>
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
